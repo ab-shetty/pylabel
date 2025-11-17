@@ -19,7 +19,7 @@ setup(
         "pandas",
         "bbox_visualizer",
         "matplotlib",
-        "opencv-python",
+        "opencv-python-headless>=4.6.0,<4.10.0",  # Constrain to versions compatible with NumPy 1.x
         "scikit-learn",
         "jupyter_bbox_widget",
         "pyyaml",
