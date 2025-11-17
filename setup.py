@@ -17,7 +17,7 @@ setup(
     license="MIT",
     install_requires=[
         "pandas",
-        "bbox_visualizer",
+        "bbox_visualizer @ git+https://github.com/ab-shetty/bbox-visualizer.git",
         "matplotlib",
         "opencv-python-headless>=4.6.0,<4.10.0",  # Constrain to versions compatible with NumPy 1.x
         "scikit-learn",
